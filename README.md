@@ -2,17 +2,15 @@
 
 ## API Endpoints 
 
-1. **Create To-Do** `POST /api/todos` - 
-Request Body: `{ "title": "Buy groceries", "description": "Milk, Eggs, Bread", "is_completed": false }`. 
-Response: `{ "success": true, "message": "To-Do created successfully", "data": { "id": 1, "title": "Buy groceries", "description": "Milk, Eggs, Bread", "is_completed": false, "created_at": "2024-12-24T15:00:00Z", "updated_at": "2024-12-24T15:00:00Z" } }`.
+1. **Create To-Do** `POST /api/todos` 
 
-2. **Get All To-Dos** `GET /api/todos` - 
+2. **Get All To-Dos** `GET /api/todos` 
 
-3. **Get Specific To-Do** `GET /api/todos/{id}` -
+3. **Get Specific To-Do** `GET /api/todos/{id}` 
 
-4. **Update To-Do** `PUT /api/todos/{id}` - 
- 
-5. **Delete To-Do** `DELETE /api/todos/{id}` -
+4. **Update To-Do** `PUT /api/todos/{id}` 
+
+5. **Delete To-Do** `DELETE /api/todos/{id}`
 
 ## Setup Instructions 
    
